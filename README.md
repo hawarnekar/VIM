@@ -2,10 +2,10 @@
 
 Install following VIM plugins/scripts
 
-1 [pathogen](https://github.com/tpope/vim-pathogen)
-2 [Vundle](https://github.com/VundleVim/Vundle.vim)
-3 [NERDTree](https://github.com/scrooloose/nerdtree.git)
-4 [taglist.vim](http://www.vim.org/scripts/script.php?script_id=273)
+* [pathogen](https://github.com/tpope/vim-pathogen)
+* [Vundle](https://github.com/VundleVim/Vundle.vim)
+* [NERDTree](https://github.com/scrooloose/nerdtree.git)
+* [taglist.vim](http://www.vim.org/scripts/script.php?script_id=273)
 
 Update (or create and edit) ~/.vimrc file as follows:
 
