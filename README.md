@@ -1,15 +1,15 @@
 # Vim customizations
 
-Install following VIM plugins/scripts
+**Install following VIM plugins/scripts:**
 
 * [pathogen](https://github.com/tpope/vim-pathogen)
 * [Vundle](https://github.com/VundleVim/Vundle.vim)
 * [NERDTree](https://github.com/scrooloose/nerdtree.git)
 * [taglist.vim](http://www.vim.org/scripts/script.php?script_id=273)
 
-Update (or create and edit) ~/.vimrc file as follows:
+**Update (or create and edit) ~/.vimrc file as follows:**
 
-'''
+```
 " Required for Vundle                                
 set nocompatible                                     
 filetype off                                         
@@ -73,4 +73,4 @@ map <F2> :TlistToggle <CR>
 map <F3> *
 map <F4> :NERDTreeToggle <CR>
 map <F1> :sh <CR>
-'''
+```
