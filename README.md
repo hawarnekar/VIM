@@ -1,2 +1,2 @@
 # Vim
-[My vim customization](Customizations.md)
+* [My vim customization](Customizations.md)
