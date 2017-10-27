@@ -10,7 +10,7 @@
 **Update (or create and edit) ~/.vimrc file as follows:**
 
 ```
-" Required for Vundle                                
+" Vundle                                
 set nocompatible                                     
 filetype off                                         
 set rtp+=~/.vim/bundle/Vundle.vim                    
@@ -18,7 +18,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'                        
 call vundle#end()                                    
 
-" Required for pathogen
+" pathogen
 execute pathogen#infect()
 
 " Basic vim setup
