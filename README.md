@@ -1,2 +1,2 @@
-# vim-config
+# Vim
 [My vim customization](Customizations.md)
