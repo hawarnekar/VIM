@@ -1,4 +1,4 @@
-# vim-config
+# Vim customizations
 
 Install following VIM plugins/scripts
 
