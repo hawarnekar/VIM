@@ -7,7 +7,7 @@
 * [NERDTree](https://github.com/scrooloose/nerdtree.git)
 * [taglist.vim](http://www.vim.org/scripts/script.php?script_id=273)
 
-**Update (or create and edit) ~/.vimrc file as follows:**
+**Update (or create and edit) [~/.vimrc](.vimrc) file as follows:**
 
 ```
 " Vundle                                
