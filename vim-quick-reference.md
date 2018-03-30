@@ -12,7 +12,7 @@ a | Normal | Insert after cursor
 A | Normal | Insert at the end of line
 o | Normal | Insert a new line below current line
 O | Normal | Insert a new line above current line
-C | Normal | Delete from the cursor position to the end of line and start insert
+C | Normal | Delete text from cursor position to the end of line and switch to insert mode
 R | Normal | Enter overwrite mode at cursor position
 w | Normal | Move one word right
 W | Normal | Move one WORD right
