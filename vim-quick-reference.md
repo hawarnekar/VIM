@@ -1,6 +1,6 @@
 # VIM Quick Reference
 
-## Sortcut Keys
+## Shortcut Keys
 
 Short Key | Mode | Description
 :--------:|:----:|:-----------
