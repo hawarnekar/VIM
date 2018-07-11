@@ -12,17 +12,18 @@ a | Normal | Insert after cursor
 A | Normal | Insert at the end of line
 o | Normal | Insert a new line below current line
 O | Normal | Insert a new line above current line
+x | Normal | Delete character under the cursor
 C | Normal | Delete text from cursor position to the end of line and switch to insert mode
 R | Normal | Enter overwrite mode at cursor position
 w | Normal | Move one word right
 W | Normal | Move one WORD right
 b | Normal | Move one word left
 B | Normal | Move one WORD left
+v | Normal | Switch to visual mode (select text)
 \* | Normal | Find word under cursor in current window (forward)
 \# | Normal | Find word under cursor in current window (backward)
 \<Ctrl-]> | Normal | Follow the hyperlink (in Help window)
 \<Ctrl-T> | Normal | Go back to prev topic (in Help window)
-v | Normal | Switch to visual mode (select text)
 \<Ctrl-v> | Normal | Switch to visual block mode
 \% | Normal | Jump to matching paranthesis
 
@@ -40,6 +41,7 @@ Command | Description
 \:sort u | Sort lines alphabetically, keeping only unique lines
 \:set wrap | Enable text wrapping
 \:set unwrap | Disable text wrapping
+\:edit | Reload the file in current buffer (this will undo all the local changes made to the file)
 
 ## How-Tos
 
@@ -77,3 +79,12 @@ _Steps:_
 2. Start recording keystrocks to the specified register
 3. To stop recording macro, switch to Normal mode and press `q`
 4. To play back the recorded macro, press `@` followed by the registered letter (from step 1)
+
+### (5) Find and replace next N lines
+_Command:_
+```, to be searched and replaced
+:.,+<N>s/<PatternToReplace>/<ReplaceWith>/gc
+```
+_Comments:_
+- In the above command, replace <N> with the number of lines, starting from current line, to be searched and replaced
+- 'c' at the end asks for confirmation before replacing each match
